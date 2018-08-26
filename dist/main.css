@@ -1,0 +1,38 @@
+.thumbnail {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    box-shadow: rgb(194, 194, 194) 3px 5px 6px 0;
+    border: 2px solid white;
+  }
+
+.Selection {
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(146, 146, 143, 0.61);
+  }
+
+.displayDiv {
+    width: 700px;
+    background: linear-gradient(to right, black, rgb(185, 184, 184),black);
+    display: flex;
+    justify-content: center;
+}
+
+.displayImg {
+  height: 400px;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+}
+
+body{
+  background: linear-gradient(to right, rgb(185, 184, 184),white, rgb(185, 184, 184));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

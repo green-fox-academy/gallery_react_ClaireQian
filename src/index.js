@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import store from './store';
-import TopDiv from './TopDivApp';
+import GalleryApp from './GalleryApp';
 
 ReactDOM.render(
   <Provider store={store}>
-    <TopDiv />
+    <GalleryApp />
   </Provider>,
   document.getElementById('root'),
 );

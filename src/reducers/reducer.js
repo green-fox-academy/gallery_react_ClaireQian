@@ -7,8 +7,8 @@ export default function TodoApp(index = 0, action) {
       return index === 0 ? 0 : index + action.changeIndex;
     case RIGHT_IMG:
       return index === PicUrlList.length - 1 ? index : index + action.changeIndex;
-    // case THUMB_CLICK:
-    //   return indexOf()
+    case THUMB_CLICK:
+      return action.thumbIndex;
     default:
       return index;
   }
