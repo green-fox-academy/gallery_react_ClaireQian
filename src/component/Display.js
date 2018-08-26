@@ -5,7 +5,7 @@ function DisPlay(props) {
   const { url } = props;
   return (
     <div className="displayDiv">
-      <img src={`${url}.jpg`} alt="" />
+      <img className="displayImg" src={`${url}.jpeg`} alt="" />
     </div>
   );
 }
